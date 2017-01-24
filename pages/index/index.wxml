@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="btn-wrap">
+        <view class="btn buy-btn" bindtap="seller">买家 Seller</view>
+        <view class="btn sell-btn" bindtap="buyer">卖家 Buyer</view>
+    </view>
+</view>

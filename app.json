@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/posts/post",
+    "pages/welcome/welcome",
+    "pages/seller/seller",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/buyer/buyer"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#06a119",
+    "navigationBarTitleText": "点子专卖店",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle":"light"
+  },
+  "tabBar": {
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "color":"#9a9797",
+    "selectedColor":"#2dac1c",
+    "list": [
+        {
+          "pagePath": "pages/seller/seller",
+          "text": "买家",
+          "iconPath":"assets/img/seller_icon.png",
+          "selectedIconPath":"assets/img/seller_icon.png"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+           "iconPath":"assets/img/my_icon.png",
+           "selectedIconPath":"assets/img/my_icon.png"
+        }, 
+        {
+          "pagePath": "pages/buyer/buyer",
+          "text": "卖家",
+           "iconPath":"assets/img/buyer_icon.png",
+           "selectedIconPath":"assets/img/buyer_icon.png"
+        }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
